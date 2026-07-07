@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DApp Trazabilidad de Fruta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Trazabilidad Exportación</h1>
+        <p>Asegurando la cadena de frío mediante tecnología Web3.</p>
+        
+        <button id="connectBtn">Conectar Wallet (MetaMask)</button>
+        <p id="walletAddress" class="wallet-text">Wallet no conectada</p>
+        
+        <div class="actions">
+            <button id="btnTransito">1. Registrar Tránsito</button>
+            <button id="btnTemperatura">2. Simular Oráculo (Subir Temp)</button>
+            <button id="btnEntrarAduana">3. Entrar en Aduana</button>
+            <button id="btnAduana">4. Certificar Aduana</button>
+        </div>
+
+        <div class="status-board">
+            <h3>Estado del Lote: <span id="estadoFruta">Desconocido</span></h3>
+            <p>Temperatura Actual: <span id="tempActual">--</span> °C</p>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.0/ethers.umd.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
