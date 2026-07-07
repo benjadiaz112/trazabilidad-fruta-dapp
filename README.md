@@ -37,7 +37,7 @@ El repositorio está organizado en dos componentes principales:
 ### 2. Frontend (Interfaz de Usuario)
 1. Asegurarse de mantener la estructura de la carpeta `frontend/`.
 2. Abrir la carpeta del proyecto en Visual Studio Code.
-3. Iniciar el archivo `index.html` utilizando la extensión **Live Server** o el visor de **Live Preview** para levantar el servidor local (usualmente en `http://127.0.0.1:5500`).
+3. Iniciar el archivo `index.html` utilizando la extensión **Live Server** o el visor de **Live Preview** para levantar el servidor local  en `http://127.0.0.1:5500`.
 4. Interactuar con los controles de la interfaz para simular el ciclo de vida del lote y activar el flujo de alerta del Oráculo ante contingencias térmicas.
 
 ## Información Académica
